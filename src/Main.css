@@ -1,0 +1,151 @@
+.Head{
+
+    width: 100vw;
+    height: 6.7rem;
+    border: outset;
+    border-bottom-color: #b41c8b;
+    border-bottom-width: 5px ;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+   
+}
+
+.Max{
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+
+h1{
+    font-size: 1.05rem;
+    font-family: "Quicksand";
+}
+
+p{
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
+    font-family: "Quicksand";
+}
+.Image{
+  max-width: 10rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+.Imagebox{
+    max-width: 8rem;
+    height: 96px;
+    width: 6rem;
+    
+}
+
+.Seletor{
+    height: 2.9rem;
+    width: 100%;
+
+   
+}
+
+.Grid{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+  
+}
+
+
+.SeletorMax{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+ 
+   
+}
+
+.SeletorMax a{
+font-size: 1rem;
+font-family: "Quicksand";
+text-decoration: none;
+
+
+}
+
+.SeletorMax a:hover{
+    color: purple;
+    text-decoration: underline;
+    
+}
+
+.SeletorMobile{
+    height: 2.7rem;
+    width: 100%;
+    overflow-x:scroll;
+    overflow-y:hidden;
+  
+    
+}
+
+.MaxMobile{
+    width: 170vw;
+    
+ 
+}
+
+.SeletorMobile::-webkit-scrollbar{
+    display: none;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    height:20rem;
+    
+    margin-top: 30px;
+}
+
+.card{
+    border: purple solid 3px;
+    margin: 10px;
+    width: 200px;
+    flex-direction: column;
+    height: 100%;
+}
+
+.NomeCard{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    font-family: "Quicksand";
+
+}
+
+.cardM{
+    border: purple solid 3px;
+    margin: 10px;
+    width: 35%;
+    flex-direction: column;
+    height: 100%;
+}
+
+.NomeCardM{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    font-family: "Quicksand";
+
+}
+
+.ImageM{
+    max-width: 6rem;
+    
+    width: 100%;
+    height: 8rem;
+    align-items: center;
+  }
+  
